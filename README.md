@@ -34,7 +34,6 @@ cd makefile_generator
 make
 ```
 
-
 4. Move the generated binary to your bin directory (e.g., `/usr/local/bin`):
 
 ```shell
@@ -44,6 +43,16 @@ sudo mv makegen /usr/local/bin
 ***Note:*** You may need administrator (***sudo***) privileges to move the binary to the system bin directory.
 
 By default, the generated Makefile includes the following rules: `$(NAME)`, `all`, `clean`, `fclean`, and `re`. You can modify and customize these rules according to your project's specific requirements, just take a look at `MakefileGenerator.h` and check out the macros.
+
+Certainly! Adding emojis to your headers can add a touch of visual appeal and make your README more engaging. Here's an updated version of the dependencies section with emojis added to the headers:
+
+## 🔗 Dependencies
+
+If you don't have `g++`, you can use the following command to install it:
+
+```shell
+sudo apt-get install g++
+```
 
 ## 🚀 Usage
 
@@ -63,6 +72,22 @@ Make sure to modify the generated Makefile according to your project's specific 
 
 - Support for additional programming languages
 - Error safeguarding to handle incorrect user inputs
+
+## 🗑️ Uninstall
+
+To uninstall makegen from you system, follow these steps:
+
+1. Navigate to the directory where you've moved the binary to (in the example abovce we used `/usr/local/bin`):
+
+```shell
+cd /usr/local/bin
+```
+
+2. Remove the `makegen` binary using the following command:
+
+```shell
+rm makegen 
+```
 
 ## 🙌 Contributing
 
