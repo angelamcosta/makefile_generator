@@ -50,7 +50,7 @@ By default, the generated Makefile includes the following rules: `$(NAME)`, `all
 Once the Makefile Generator is installed, you can use it by executing the following command:
 
 ```shell
-makefile_generator
+makegen
 ```
 
 The tool will prompt you to provide the necessary information, such as the project name, programming language (C/C++), and file names. Follow the instructions and enter the required details.
