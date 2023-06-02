@@ -1,5 +1,5 @@
-#ifndef MAKEFILEGENERATOR_H
-#define MAKEFILEGENERATOR_H
+#ifndef MAKEFILEGENERATOR_HPP
+#define MAKEFILEGENERATOR_HPP
 # include <string>
 # define CC "CC\t\t=\tcc\nFLAGS\t=\t-Wall -Werror -Wextra\n\n"
 # define CPP "CC\t\t=\tg++\nFLAGS\t=\t-Wall -Werror -Wextra -std=c++98\n\n"

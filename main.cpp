@@ -1,4 +1,4 @@
-#include "MakefileGenerator.h"
+#include "MakefileGenerator.hpp"
 
 int main() {
 	MakefileGenerator makeGen;

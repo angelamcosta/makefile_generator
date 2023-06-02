@@ -1,4 +1,4 @@
-#include "MakefileGenerator.h"
+#include "MakefileGenerator.hpp"
 #include <iostream>
 #include <fstream>
 
