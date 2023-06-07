@@ -2,14 +2,14 @@ NAME	=	makegen
 
 RM		=	rm -rf
 CC		=	g++
-FLAGS	=	-std=c++98
+FLAGS	=	-Wall -Werror -Wextra -std=c++98
 
-SRC		=	main.cpp MakefileGenerator.cpp MakefileGenerator.h
+SRC		=	main.cpp MakefileGenerator.cpp MakefileGenerator.hpp
 
 all:		$(NAME)
 
 $(NAME):
-			$(CC) $(FLAGS) $(SRC) -o $(NAME)
+			$(CC) $(SRC) $(FLAGS) -o $(NAME)
 
 clean:
 			$(RM) $(NAME)
